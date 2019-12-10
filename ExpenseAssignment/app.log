@@ -1,0 +1,19 @@
+2019-12-04 10:09:02,229 INFO com.example.EasyNotesApplication [restartedMain] Starting EasyNotesApplication on AnushreeS-PC-215 with PID 3824 (C:\Users\Anushree\Downloads\ExpenseManagerUT-master\ExpenseAssignment\target\classes started by Anushree in C:\Users\Anushree\Downloads\ExpenseManagerUT-master\ExpenseAssignment)
+2019-12-04 10:09:02,229 INFO com.example.EasyNotesApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-12-04 10:09:03,464 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-12-04 10:09:03,466 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-04 10:09:03,733 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-12-04 10:09:03,871 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-12-04 10:09:03,918 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-04 10:09:04,018 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-04 10:09:04,150 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2019-12-04 10:09:04,251 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2019-12-04 10:09:04,260 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-04 10:09:04,720 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-04 10:09:05,352 INFO com.example.EasyNotesApplication [restartedMain] Started EasyNotesApplication in 3.643 seconds (JVM running for 5.021)
+2019-12-04 10:09:52,981 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-04 10:10:09,456 INFO com.example.controller.IndexController [http-nio-8080-exec-3] Info message
+2019-12-04 10:10:09,457 WARN com.example.controller.IndexController [http-nio-8080-exec-3] Warn message
+2019-12-04 10:10:09,457 ERROR com.example.controller.IndexController [http-nio-8080-exec-3] Error message
+2019-12-04 10:10:42,302 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown initiated...
+2019-12-04 10:10:42,310 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown completed.
