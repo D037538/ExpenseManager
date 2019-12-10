@@ -9,6 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
@@ -24,13 +25,22 @@ public class Expenses {
 	private LocalDateTime createDateTime;
 	@UpdateTimestamp
 	private LocalDateTime updateDateTime;
-	/*
-	 * @ManyToOne
-	 * 
-	 * @JoinColumn(name = "ec_id") private ExpenseCategory expenseCategory;
-	 */
-	private int ec_id;
+	
+	  @ManyToOne  
+	  @JoinColumn(name = "id")
+	  private ExpenseCategory expenseCategory;
+	 
+	
+	  public ExpenseCategory getExpenseCategory() {
+		return expenseCategory;
+	}
 
+	public void setExpenseCategory(ExpenseCategory expenseCategory) {
+		this.expenseCategory = expenseCategory;
+	}
+
+	@Transient private int ec_id;
+	 
 	
 	public int getEc_id() {
 		return ec_id;
